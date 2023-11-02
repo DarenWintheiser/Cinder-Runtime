@@ -17,4 +17,4 @@
     	<buildCopy>lib/msw/$(PlatformTarget)/$(Configuration)/cinder_rt.dll</buildCopy>
     </platform>
 </block>
-</cinder>
+</cinder> 
