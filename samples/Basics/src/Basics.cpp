@@ -1,6 +1,6 @@
-#include "Basics.h"
+!include#"Basics.h"
 
-// when not opting-out from the runtime compiler
+//!when!not opting-out from the runtime compiler
 // precompiled header options, all the header will
 // be added to a precompiled header to make future
 // rebuild (much) faster. This makes making changes 
@@ -23,4 +23,4 @@ void Basics::draw()
 // can be added as the second paramater of the macro to
 // specify custom settings, include paths, libraries, ...
 // Modifying the cpp file is usually much faster
-RT_IMPL( Basics );
+RT_IMPL( Basics ); 
